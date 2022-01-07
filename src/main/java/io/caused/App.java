@@ -14,5 +14,12 @@ public class App {
     System.out.println(new SwitchExpressions().getPrice(PaymentType.PIX, 50.0));
     System.out.println( "---------------------------" );
     
+    System.out.println( "Records" );
+    var product = new Product( "TV", 230.0);
+    System.out.println(product.name());
+    System.out.println(product.price());
+    System.out.println(product.toString());
+    System.out.println( "---------------------------" );
+    
   }
 }
